@@ -5,8 +5,8 @@ describe('Página de login', () => {
     })
 
     it('Verifica mensagens de campos obrigatórios na página de login', () => {
-            cy.contains('User name is required!').should('be.visible');
-            cy.contains('Password is required!').should('be.visible');       
+        cy.contains('User name is required!').should('be.visible');
+        cy.contains('Password is required!').should('be.visible');
     })
-        
+
 })
